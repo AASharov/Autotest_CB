@@ -24,7 +24,7 @@ public class AutoTest extends Settings {
         driver.findElement(By.xpath("//a[@class = 'category-item-desktop']//span[text()='Средства связи']")).click();
         driver.findElement(By.xpath("//a[@class = 'category-item-desktop']//span[text()='Смартфоны']")).click();
 
-        //Забрать текс описания раздела
+        //Забрать текст описания раздела
         String name = driver.findElement(By.xpath("//h1[text()='Смартфоны']")).getText();
 
         //Убедиться, что текст совпадает с ожидаемым
@@ -49,14 +49,14 @@ public class AutoTest extends Settings {
 
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//div[@class='left-filters__buttons']")));
 
-        //Выбр нужного диапозона цен
+        //Выбор нужного диапазона цен
         driver.findElement(By.xpath("//span[text()='4 001 - 10 000']")).click();
 
-        //Приминение фильтра по ценам
+        //Применение фильтра по ценам
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//div[@class='apply-filters-float-btn']")));
         driver.findElement(By.xpath("//div[@class='apply-filters-float-btn']")).click();
 
-        //Дождать приминения фильтров и взять значение цены у первого элемента
+        //Дождаться применения фильтров и взять значение цены у первого элемента
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='Цена: от 4 001 р. до 10 000 р.']")));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@data-position-index='0']//div[@class='product-price__current']")));
         String price = driver.findElement(By.xpath("//div[@data-position-index='0']//div[@class='product-price__current']")).getText();
@@ -89,10 +89,10 @@ public class AutoTest extends Settings {
 
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//div[@class='left-filters__buttons']")));
 
-        //Выбр нужного диапозона цен
+        //Выбор нужного диапозона цен
         driver.findElement(By.xpath("//span[text()='4 001 - 10 000']")).click();
 
-        //Приминение фильтра по ценам
+        //Применение фильтра по ценам
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//div[@class='apply-filters-float-btn']")));
         driver.findElement(By.xpath("//div[@class='apply-filters-float-btn']")).click();
 
@@ -101,7 +101,7 @@ public class AutoTest extends Settings {
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//div[@class='popover-block popover-block_show']")));
         driver.findElement(By.xpath("//div[@class='popover-block popover-block_show']//span[text()='По убыванию цены']")).click();
 
-        //Получение цены первого элемента, цена которога является макимальной
+        //Получение цены первого элемента, цена которога является максимальной
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//div[@data-position-index='0']//div[@class='product-price__current']")));
         String price = driver.findElement(By.xpath("//div[@data-position-index='0']//div[@class='product-price__current']")).getText();
 

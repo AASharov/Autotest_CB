@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="081a41ee-fbf4-4158-8640-e29334d7c99b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/dns/AutoTest.java" afterDir="false" />
+    <list default="true" id="081a41ee-fbf4-4158-8640-e29334d7c99b" name="Default Changelist" comment="Оптимизация 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/tusur/FirstTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/tusur/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/dns/Settings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/tusur/FirstTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Autotest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/dns/AutoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/dns/AutoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Autotest.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/dns/AutoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/dns/AutoTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/dns/AutoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="-611">
+              <caret line="103" column="70" selection-start-line="103" selection-start-column="70" selection-end-line="103" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,8 +36,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/dns/Settings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="391">
+              <caret line="23" column="53" lean-forward="true" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,8 +70,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="835" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="513" />
     <option name="width" value="1065" />
     <option name="height" value="1057" />
   </component>
@@ -80,71 +81,50 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Autotest" type="462c0819:PsiDirectoryNode" />
+              <item name="Autotest_CB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Autotest_CB" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Autotest" type="462c0819:PsiDirectoryNode" />
+              <item name="Autotest_CB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Autotest_CB" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Autotest" type="462c0819:PsiDirectoryNode" />
+              <item name="Autotest_CB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Autotest_CB" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Autotest" type="462c0819:PsiDirectoryNode" />
+              <item name="Autotest_CB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Autotest_CB" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Autotest" type="462c0819:PsiDirectoryNode" />
+              <item name="Autotest_CB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Autotest_CB" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="drivers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Autotest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Autotest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Autotest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dns" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/drivers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -163,7 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AutoTest.checkMaxPhonePrice">
+  <component name="RunManager" selected="JUnit.AutoTest">
     <configuration name="AutoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Autotest" />
       <extension name="coverage">
@@ -245,9 +225,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AutoTest" />
         <item itemvalue="JUnit.AutoTest.checkMaxPhonePrice" />
         <item itemvalue="JUnit.AutoTest.checkMinPhonePrice" />
-        <item itemvalue="JUnit.AutoTest" />
         <item itemvalue="JUnit.AutoTest.checkProductName" />
         <item itemvalue="JUnit.AutoTest.checkCharSymbolsInFilter" />
       </list>
@@ -282,9 +262,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AutoTest_checkMinPhonePrice - 2019.06.12 at 18h 51m 08s.xml">
-      <configuration name="AutoTest.checkMinPhonePrice" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AutoTest_checkMaxPhonePrice - 2019.06.12 at 18h 53m 58s.xml">
       <configuration name="AutoTest.checkMaxPhonePrice" configurationId="JUnit" />
     </history-entry>
@@ -312,12 +289,15 @@
     <history-entry file="AutoTest_checkMaxPhonePrice - 2019.06.12 at 19h 04m 35s.xml">
       <configuration name="AutoTest.checkMaxPhonePrice" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AutoTest - 2019.06.12 at 20h 02m 38s.xml">
+      <configuration name="AutoTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15405117" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -326,7 +306,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33654878" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21543409" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -334,7 +314,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3215434" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32142857" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -430,20 +410,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/dns/AutoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/dns/Settings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="391">
+          <caret line="23" column="53" lean-forward="true" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/dns/Settings.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/dns/AutoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="-611">
+          <caret line="103" column="70" selection-start-line="103" selection-start-column="70" selection-end-line="103" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
